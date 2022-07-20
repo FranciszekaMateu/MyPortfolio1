@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    font-family: 'Libre Franklin','Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.body__grid__padre__instalaciones
+{
+    background-color: #9BA3EB;
+    display: grid;
+    grid-template-rows: 18% 80% 15%;
+    row-gap: 1em;
+}
+.body__grid__padre
+{
+    background-color: #9BA3EB;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 1em;
+}
+.header__grid__hijo
+{
+    display: flex;
+}
+.header__icontitle
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo
+{
+    margin: 1em;
+    width: 110px;
+    height: 110px;
+}
+.header__grid__hijo
+{
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: #242F9B;
+    color: #F8F4E3;
+}
+.header__grid__hijo a
+{
+    color: #F8F4E3;
+}
+.header__nav
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header_nav__menu__button
+{
+    margin: 4em;
+    margin-bottom: 1em;
+    color: #F8F4E3;
+    text-align: center;
+    background-color: #9BA3EB;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #646FD4;
+    border-radius: 1em;
+    width: 15em;
+    height: 2.5em;
+    transition: all 1s;
+}
+.header_nav__menu__button:hover
+{
+    background-color: #646FD4;
+    zoom: 110%;
+}
+.header__grid__hijo h1
+{
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+main
+{
+    padding-top: 2em;
+    background: linear-gradient(180deg, #242f9b 44%, #130E6E 100%);
+}
+.formulario
+{
+    text-align: center;
+    display: block;
+}
+
+.formulario__texto
+{
+    border: #2A2B2A;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    border-color: #646FD4;
+    color: #D2D7DF;
+    background: #0E2D6E;
+    margin: 1em;
+    border-bottom-style:none;
+    font-size: 1em;
+}
+.formulario__info
+{
+    margin: 1em;
+}
+
+.formulario__info button
+{
+    background-color: #9BA3EB;
+    border-color: #646FD4;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+.formulario__info__planes
+{
+
+    background-color: #9BA3EB;
+    border-color: #646FD4;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+.formulario h1
+{
+    color: #F8F4E3;
+    font-size: 3em;
+}
+.formulario__info button
+{
+    padding: 3px;
+    margin-left: 1em;
+    height: 3em;
+    width: 4em;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: #b1aeae;
+}
+.formulario__correo label
+{
+    margin: 1em;
+    font-weight: 900;
+    color: #F8F4E3;
+}
+.formulario__correo input
+{
+    border-color:  #646FD4;
+    padding: 0.5em;
+    width: 18em;
+    border-style: solid;
+    color: rgb(42,43,42);
+    background-color: #b1aeae;
+    border-radius: 1em;
+    
+}
+.footer__grid__hijo
+{
+    text-align: center;
+    background-color: #130E6E;
+    color: #D2D7DF;
+}
+.footer__redes img
+{
+    width: 4em;
+    height: 4em;
+    border-bottom-width: 2em;
+    border-color: #353535;
+    border-radius: 4em;
+}
+.footer__redes
+{
+    padding: 1em;
+}
+.footer__datos
+{
+    padding: 0.5em;
+}
